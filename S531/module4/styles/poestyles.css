@@ -1,0 +1,51 @@
+body {
+    max-width: 60em;
+    margin: 0 auto 0 auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    padding: 1em;
+}
+
+/* Add a background image to the body */
+body {
+    background-image: url('tombstone.png');
+    background-size: 65%; /* Adjust the percentage value to make the image smaller */
+    background-repeat: no-repeat;
+}
+
+h1 {
+    background-color: lightblue;
+    color: white; /* Set text color to white for better visibility */
+    padding: 10px; /* Add padding for better visual appearance */
+}
+
+/* Style the links in the paragraphs */
+a {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the list items in the unordered list */
+ul li {
+    list-style-type: square;
+    margin-left: 20px;
+    color: darkblue;
+}
+
+/* Style the caption of the table */
+caption {
+    font-style: italic;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #333; /* Set text color to dark gray */
+    margin-bottom: 1em;
+}
